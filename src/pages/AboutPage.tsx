@@ -74,9 +74,10 @@ const AboutPage: React.FC = () => {
       <section className="bg-gradient-to-br from-primary-600 to-black text-white py-24 relative overflow-hidden" id="hero-section">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Business Partnership"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-primary-800/80 to-black/60"></div>
         </div>
@@ -103,9 +104,10 @@ const AboutPage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Industrial Manufacturing"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black"></div>
         </div>
@@ -129,6 +131,7 @@ const AboutPage: React.FC = () => {
                   src="assets/buy.jpg"
                   alt="Factory Operations"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -167,6 +170,7 @@ const AboutPage: React.FC = () => {
                       src={item.image} 
                       alt={item.title}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   </div>
@@ -216,6 +220,7 @@ const AboutPage: React.FC = () => {
                         src={item.image} 
                         alt={item.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </div>
@@ -243,9 +248,10 @@ const AboutPage: React.FC = () => {
       <section className="py-24 bg-primary-600/5 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Financial Growth"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/10 to-black"></div>
         </div>
@@ -264,9 +270,10 @@ const AboutPage: React.FC = () => {
             <div className="text-center cyber-card p-12 mobile-optimized relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=300"
                   alt="Factories"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -279,9 +286,10 @@ const AboutPage: React.FC = () => {
             <div className="text-center cyber-card p-12 mobile-optimized relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300"
                   alt="Community"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -294,9 +302,10 @@ const AboutPage: React.FC = () => {
             <div className="text-center cyber-card p-12 mobile-optimized relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src="https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&w=300"
                   alt="Legacy"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
