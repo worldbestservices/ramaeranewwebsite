@@ -134,6 +134,7 @@ const IndustriesPage: React.FC = () => {
             src="assets/agreeculter.jpg"
             alt="Industrial Manufacturing"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-primary-600/20 to-black/60"></div>
         </div>
@@ -171,6 +172,7 @@ const IndustriesPage: React.FC = () => {
                       src={metric.image} 
                       alt={metric.label}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                   <div className="relative z-10">
@@ -230,6 +232,7 @@ const IndustriesPage: React.FC = () => {
             src={industry.image} 
             alt={industry.title}
             className="w-full h-full object-cover"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
         </div>
@@ -269,9 +272,10 @@ const IndustriesPage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Business Innovation"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black"></div>
         </div>
@@ -291,9 +295,10 @@ const IndustriesPage: React.FC = () => {
           <AnimatedSection className="cyber-card p-12 text-center backdrop-blur-xl relative overflow-hidden">
             <div className="absolute inset-0 opacity-20">
               <img 
-                src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="Innovation"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div className="relative z-10">
@@ -326,9 +331,10 @@ const IndustriesPage: React.FC = () => {
       <section className="py-24 bg-gradient-to-r from-black via-primary-600/10 to-black text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Community Building"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/20 to-black"></div>
         </div>
