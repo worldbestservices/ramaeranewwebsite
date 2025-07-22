@@ -174,9 +174,10 @@ const JoinPage: React.FC = () => {
       <section className="bg-gradient-to-br from-primary-600 to-black text-white py-24 relative overflow-hidden" id="hero-section">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Community Building"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-primary-600/20 to-black/60"></div>
         </div>
@@ -204,9 +205,10 @@ const JoinPage: React.FC = () => {
       <section className="py-20 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Family Legacy"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black"></div>
         </div>
@@ -257,6 +259,7 @@ const JoinPage: React.FC = () => {
                         src={benefit.image} 
                         alt={benefit.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                     <div className="relative z-10">
@@ -313,6 +316,7 @@ const JoinPage: React.FC = () => {
                         src={step.image} 
                         alt={step.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                     <div className="relative z-10">
@@ -322,6 +326,7 @@ const JoinPage: React.FC = () => {
                             src={step.image} 
                             alt={step.title}
                             className="w-full h-full object-cover"
+                            loading="lazy"
                           />
                         </div>
                         <motion.div 
@@ -387,9 +392,10 @@ const JoinPage: React.FC = () => {
             <div className="text-center cyber-card p-8 relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300" 
                   alt="Community"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -402,9 +408,10 @@ const JoinPage: React.FC = () => {
             <div className="text-center cyber-card p-8 relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=300" 
                   alt="Investment"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -417,9 +424,10 @@ const JoinPage: React.FC = () => {
             <div className="text-center cyber-card p-8 relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/4198015/pexels-photo-4198015.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="https://images.pexels.com/photos/4198015/pexels-photo-4198015.jpeg?auto=compress&cs=tinysrgb&w=300" 
                   alt="Factories"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -432,9 +440,10 @@ const JoinPage: React.FC = () => {
             <div className="text-center cyber-card p-8 relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=300" 
                   alt="Returns"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -505,9 +514,10 @@ const JoinPage: React.FC = () => {
             <div className="cyber-card p-6 relative overflow-hidden bg-yellow-600/10 border border-yellow-600/50">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/4386433/pexels-photo-4386433.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.pexels.com/photos/4386433/pexels-photo-4386433.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Risk Warning"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -550,9 +560,10 @@ const JoinPage: React.FC = () => {
                 <div className="cyber-card p-6 relative overflow-hidden">
                   <div className="absolute inset-0 opacity-20">
                     <img 
-                      src="https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                      src="https://images.pexels.com/photos/4386321/pexels-photo-4386321.jpeg?auto=compress&cs=tinysrgb&w=300" 
                       alt="FAQ"
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                   <div className="relative z-10">
@@ -569,9 +580,10 @@ const JoinPage: React.FC = () => {
       <section className="py-24 bg-gradient-to-r from-black via-primary-600/10 to-black text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Partnership Success"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/20 to-black"></div>
         </div>
