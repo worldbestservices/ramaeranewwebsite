@@ -164,6 +164,7 @@ const SuccessStoriesPage: React.FC = () => {
             src="assets/project.jpg"
             alt="Industrial Manufacturing"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-primary-600/20 to-black/60"></div>
         </div>
@@ -260,6 +261,7 @@ const SuccessStoriesPage: React.FC = () => {
                           src={story.image} 
                           alt={story.title}
                           className="w-full h-full object-cover"
+                          loading="lazy"
                         />
                         <div className="absolute top-4 left-4">
                           <span className="bg-accent-500 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-neon">
@@ -376,6 +378,8 @@ const SuccessStoriesPage: React.FC = () => {
                       src={project.image} 
                       alt={project.title}
                       className="w-full h-full object-cover"
+                     loading="lazy"
+                      loading="lazy"
                     />
                   </div>
                   <div className="relative z-10 h-full flex flex-col">
@@ -444,9 +448,10 @@ const SuccessStoriesPage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
   <div className="absolute inset-0 z-0">
     <img
-      src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+      src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
       alt="Business Partnership"
       className="w-full h-full object-cover opacity-20"
+      loading="lazy"
     />
     <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black"></div>
   </div>
@@ -571,9 +576,10 @@ const SuccessStoriesPage: React.FC = () => {
       <section className="py-24 bg-gradient-to-r from-black via-primary-600/10 to-black text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Community Building"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/20 to-black"></div>
         </div>

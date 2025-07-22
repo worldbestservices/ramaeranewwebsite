@@ -114,9 +114,10 @@ const HowItWorksPage: React.FC = () => {
       <section className="bg-gradient-to-br from-primary-600 to-black text-white py-24 relative overflow-hidden" id="hero-section">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Industrial Manufacturing"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-primary-600/20 to-black/60"></div>
         </div>
@@ -203,6 +204,7 @@ const HowItWorksPage: React.FC = () => {
                         src={step.image} 
                         alt={step.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        loading="lazy"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                       
@@ -274,9 +276,10 @@ const HowItWorksPage: React.FC = () => {
             <div className="cyber-card p-8 mb-8 relative overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Profit Distribution"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -310,9 +313,10 @@ const HowItWorksPage: React.FC = () => {
             <div className="cyber-card p-8 relative overflow-hidden bg-primary-600/10">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Example Calculation"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -352,9 +356,10 @@ const HowItWorksPage: React.FC = () => {
             <div className="cyber-card p-8 relative overflow-hidden bg-yellow-600/10 border border-yellow-600/50">
               <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.pexels.com/photos/4386433/pexels-photo-4386433.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="https://images.pexels.com/photos/4386433/pexels-photo-4386433.jpeg?auto=compress&cs=tinysrgb&w=600" 
                   alt="Important Notice"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="relative z-10">
@@ -392,9 +397,10 @@ const HowItWorksPage: React.FC = () => {
       <section className="py-24 bg-gradient-to-r from-black via-primary-600/10 to-black text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Community Building"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/20 to-black"></div>
         </div>
