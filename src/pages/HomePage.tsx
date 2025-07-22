@@ -212,20 +212,23 @@ const HomePage: React.FC = () => {
                 src="assets/sliderHeader.webp"
                 alt="Spice Factory"
                 className="w-full h-full object-cover opacity-40"
+                loading="lazy"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="Manufacturing"
                 className="w-full h-full object-cover opacity-40"
+                loading="lazy"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
                 alt="Community"
                 className="w-full h-full object-cover opacity-40"
+                loading="lazy"
               />
             </SwiperSlide>
           </Swiper>
@@ -328,9 +331,10 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Business Partnership"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black"></div>
         </div>
@@ -393,9 +397,11 @@ const HomePage: React.FC = () => {
               >
                 <div className="relative h-64">
                   <img 
-                    src={story.image} 
+                    src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt={story.title}
                     className="w-full h-full object-cover"
+                    loading="lazy"
+                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute top-4 left-4">
@@ -482,6 +488,7 @@ const HomePage: React.FC = () => {
                         src={project.image} 
                         alt={project.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                     </div>
                     <div className="relative z-10">
@@ -541,9 +548,10 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/1444416/pexels-photo-1444416.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Products"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black"></div>
         </div>
@@ -575,6 +583,7 @@ const HomePage: React.FC = () => {
                         src={product.image} 
                         alt={product.name}
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                       <div className="absolute top-4 right-4">
                         <div className="bg-black/80 p-3 rounded-full neon-border">
@@ -661,9 +670,10 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Community"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black"></div>
         </div>
@@ -790,9 +800,10 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Contact"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black"></div>
         </div>
@@ -858,9 +869,10 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-gradient-to-r from-black via-primary-600/10 to-black text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200"
             alt="Future"
             className="w-full h-full object-cover opacity-30"
+            loading="lazy"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-primary-600/20 to-black"></div>
         </div>
