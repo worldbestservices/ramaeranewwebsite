@@ -56,7 +56,7 @@ const JoinPage: React.FC = () => {
     {
       icon: Target,
       title: 'Lifetime Access',
-      description: 'One share gives you lifetime access to invest in unlimited future projects',
+      description: 'One share (₹500) gives you lifetime partnership and access to all future factory projects',
       image: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
@@ -71,7 +71,7 @@ const JoinPage: React.FC = () => {
     {
       number: 1,
       title: 'Get Invited',
-      description: 'Receive invitation from existing shareholder',
+      description: 'Get invited by an existing Ramaera shareholder',
       icon: Users,
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
@@ -80,7 +80,7 @@ const JoinPage: React.FC = () => {
       title: 'Buy Share',
       description: 'Purchase minimum 1 share of Ramaera',
       icon: IndianRupee,
-      image: 'https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'assets/buy.jpg'
     },
     {
       number: 3,
@@ -92,7 +92,7 @@ const JoinPage: React.FC = () => {
     {
       number: 4,
       title: 'Access Dashboard',
-      description: 'Get access to member dashboard and projects',
+      description: 'Access exclusive member dashboard and live factory projects',
       icon: Target,
       image: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400'
     }
@@ -105,7 +105,7 @@ const JoinPage: React.FC = () => {
       icon: Shield,
       content: [
         'Each Ramaera share costs ₹500(Flexible)',
-        'Shares are non-tradable until IPO',
+        'Shares are currently unlisted (non-tradable until IPO)',
         'Once Ramaera is listed, an IPO will be conducted — increasing liquidity and valuation',
         'Lifetime Partership with unlimited project access'
       ]
@@ -115,9 +115,9 @@ const JoinPage: React.FC = () => {
       title: 'Factory Investment Terms',
       icon: FileText,
       content: [
-        'Shareholders can invest in multiple factory projects (e.g., 100+)',
+        'Only shareholders can invest in factory projects (minimum ₹500 per project)',
         'All investments are non-refundable',
-        'This is not a financial scheme, it\'s pure industrialization',
+        'This is pure industrialization, not a financial scheme or trading platform',
         'Only shareholders can participate in factory funding'
       ]
     },
@@ -127,7 +127,7 @@ const JoinPage: React.FC = () => {
       icon: TrendingUp,
       content: [
         'Profit is not guaranteed in any project',
-        'If a shareholder invests in 100 factories: Even if 20 fail, the remaining 80% successful ones will yield yearly profits',
+        'Diversification strategy: Invest in multiple factories to spread risk',
         'Profit is distributed only if the factory earns it',
         'Distribution is annual, after book closing and auditing — not monthly'
       ]
@@ -138,7 +138,7 @@ const JoinPage: React.FC = () => {
       icon: Heart,
       content: [
         'If a shareholder passes away, profits and rights go to their nominee',
-        'This is not just investment—it\'s family legacy through co-owned industries',
+        'Build generational wealth through real industrial assets',
         'Shares can be transferred to family members',
         'Multi-generational wealth building through real assets'
       ]
@@ -152,7 +152,7 @@ const JoinPage: React.FC = () => {
     },
     {
       question: 'How do I get invited to join Ramaera?',
-      answer: 'You need an invitation from an existing shareholder. This ensures our community remains trusted and aligned with our values.'
+      answer: 'You need an invitation from an existing Ramaera shareholder. This exclusive model ensures our community remains trusted and aligned with our industrial vision.'
     },
     {
       question: 'What is the minimum investment required?',
@@ -160,11 +160,11 @@ const JoinPage: React.FC = () => {
     },
     {
       question: 'How are profits distributed?',
-      answer: 'Profits are distributed transparently: 30% to production partner, 55% to project investors, 10% for marketing, and 5% for operations.'
+      answer: 'Factory profits are distributed annually after audit: 30% to factory operator, 55% to project investors, 10% for community marketing, 5% for operations.'
     },
     {
       question: 'Can I sell my shares?',
-      answer: 'Shares are non-tradable until IPO. After IPO, shares will have liquidity and can be traded on stock exchanges.but if you shell the share you will be become not part of Ramaera not receive any benefit of factory.',
+      answer: 'Shares are currently unlisted and non-tradable. After IPO, shares will become liquid and tradable on stock exchanges. However, selling shares means losing all Ramaera benefits and factory access.'
     }
   ]
 
