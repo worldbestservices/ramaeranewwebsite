@@ -7,6 +7,8 @@
  
  function App() {
    return (
+   )
+ }
 @@ .. @@
            <Route path="about" element={<AboutPage />} />
            <Route path="industries" element={<IndustriesPage />} />
